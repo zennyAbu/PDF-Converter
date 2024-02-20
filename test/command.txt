@@ -1,0 +1,12 @@
+cd test
+pip list
+python.exe -m pip install --upgrade pip
+cls
+py -m pip install --upgrade pip
+pip install tk
+pip list
+py -m pip install --upgrade pip
+pip freeze > requirements.txt
+history
+history > command.txt
+doskey /history > command.txt
